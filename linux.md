@@ -12,7 +12,7 @@ ps huH p <PID_OF_U_PROCESS> | wc -l # Check Thread count of a process
 
 scp [user]@[remote_server]:[remote_directory] [local]
 
-du . -h --max-depth=1 | sort -n | head -10 # find top 10 largest directories
+du . -h --max-depth=1 | sort -hr | head -10 # find top 10 largest directories
 ls -alh | sort -t '-' -k12 # Sort pb by timestmp
 ls -alh | grep 'ch09020' | sort -t '-' -k12 # Sort pb by timestmp
 
