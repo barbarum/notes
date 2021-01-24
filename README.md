@@ -1,22 +1,14 @@
-# Indexing
-
-## OS
-
+# 1. Indexing
+## 1.1. OS
 * [Linux](./linux.md)
-
-## Coding
-
+## 1.2. Coding
 * [gitlab](./gitlab.md)
-
-## CI & CD
-
+## 1.3. CI & CD
 * [kubernetes](./kubernetes.md)
-
-## Database
-
+## 1.4. Database
 * [mysql](./mysql.md)
 * [redis](./redis.md)
-
-## Message Queue
-
+## 1.5. Message Queue
 * [kafka](./kafka.md)
+# 2. Methodology
+- [Metrics-Driven Development](https://sookocheff.com/post/mdd/mdd/)
