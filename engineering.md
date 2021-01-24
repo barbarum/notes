@@ -32,18 +32,16 @@ Leadership vs Management
 
 1. Describe the background
 
-2. What want to do?
+2. What to do and expectation?
 
-3. What's the expectation?
+3. When to complete?
 
-4. When to complete?
+4. How to do? (For junior engineers)
 
-5. How to do? (For junior engineers)
+5. Stage checking
 
-6. Stage checking
+6. Expectation of next round staging check.
 
-7. Expectation of next round staging check.
-
-8. Confirm if it's followed (Ask him to repeat)
+7. Confirm if it's followed (Ask him to repeat)
 
 ### How to do PIP?
