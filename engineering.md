@@ -26,6 +26,10 @@ Leadership vs. Management
 
 5. Represent and Repeat yourself
 
+6. Stays pretty hand-off, and ready to jump in to offer guidance when needed
+
+7. Sharp your technology skills up-to-date
+
 ### Management Tools
 
 1. Engineering Level & Promotion & Salary Review
