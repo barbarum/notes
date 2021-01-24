@@ -16,7 +16,11 @@ Leadership vs Management
 
 2. Influence people
 
-3. Represent and Repeat yourself
+3. Do as said
+
+4. What's said must be completed
+
+5. Represent and Repeat yourself
 
 ### Management Tools
 
