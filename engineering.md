@@ -1,20 +1,20 @@
-# Engineering Management
+# 1. Engineering Management
 
 Brings together the technological problem-solving ability of engineering and the organizational, administrative, and planning abilities of management in order to oversee the operational performance of complex engineering driven enterprises.
 
-## Product Engineering
+## 1.1. Product Engineering
 
 Drive product success by brings together the technological problem-solving ability of engineering and the organizational, administrative, and planning abilities of management.
 
-* Methodology
+- Methodology
 
-  * [Metrics-Driven Development](https://sookocheff.com/post/mdd/mdd/)
+  - [Metrics-Driven Development](https://sookocheff.com/post/mdd/mdd/)
 
-## Management Style
+## 1.2. Management Style
 
 Leadership vs. Management
 
-### Leadership
+### 1.2.1. Leadership
 
 1. Lead by example (Role Model)
 
@@ -30,7 +30,7 @@ Leadership vs. Management
 
 7. Sharp your technology skills up-to-date
 
-### Management Tools
+### 1.2.2. Management Tools
 
 1. Engineering Level & Promotion & Salary Review
 
@@ -38,9 +38,9 @@ Leadership vs. Management
 
 3. PIP
 
-## Questions
+## 1.3. Questions
 
-### How to do task assignment?
+### 1.3.1. How to do task assignment?
 
 1. Describe the background
 
@@ -56,4 +56,4 @@ Leadership vs. Management
 
 7. Confirm if it's followed (Ask him to repeat)
 
-### How to do PIP?
+### 1.3.2. How to do PIP?
