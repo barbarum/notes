@@ -6,7 +6,7 @@
 
 1. [Metrics-Driven Development](https://sookocheff.com/post/mdd/mdd/)
 
-## 研发管理
+## Management Style
 
 Leadership vs Management
 
