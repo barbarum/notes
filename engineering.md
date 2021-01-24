@@ -7,7 +7,6 @@ Brings together the technological problem-solving ability of engineering and the
 Drive product success by brings together the technological problem-solving ability of engineering and the organizational, administrative, and planning abilities of management.
 
 - Methodology
-
   - [Metrics-Driven Development](https://sookocheff.com/post/mdd/mdd/)
 
 ## 1.2. Management Style
