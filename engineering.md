@@ -39,4 +39,5 @@ Leadership vs. Management
 - Stage checking
 - Expectation of next round staging check.
 - Confirm if it's followed (Ask him to repeat)
+
 ### 1.3.2. How to do PIP?
