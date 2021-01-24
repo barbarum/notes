@@ -16,44 +16,28 @@ Leadership vs. Management
 
 ### 1.2.1. Leadership
 
-1. Lead by example (Role Model)
-
-2. Influence people
-
-3. Do as said
-
-4. What's said must be completed
-
-5. Represent and Repeat yourself
-
-6. Stays pretty hand-off, and ready to jump in to offer guidance when needed
-
-7. Sharp your technology skills up-to-date
+- Lead by example (Role Model)
+- Influence people
+- Do as said, what's said must be completed
+- Represent and Repeat yourself
+- Stays pretty hand-off, and ready to jump in to offer guidance when needed
+- Sharp your technology skills up-to-date
 
 ### 1.2.2. Management Tools
 
-1. Engineering Level & Promotion & Salary Review
-
-2. KPI & OKR
-
-3. PIP
+- Engineering Level & Promotion & Salary Review
+- KPI & OKR
+- PIP
 
 ## 1.3. Questions
 
 ### 1.3.1. How to do task assignment?
 
-1. Describe the background
-
-2. What to do and expectation?
-
-3. When to complete?
-
-4. How to do? (For junior engineers)
-
-5. Stage checking
-
-6. Expectation of next round staging check.
-
-7. Confirm if it's followed (Ask him to repeat)
-
+- Describe the background
+- What to do and expectation?
+- When to complete?
+- How to do? (For junior engineers)
+- Stage checking
+- Expectation of next round staging check.
+- Confirm if it's followed (Ask him to repeat)
 ### 1.3.2. How to do PIP?
