@@ -1,6 +1,10 @@
 # Engineering Management
 
+Brings together the technological problem-solving ability of engineering and the organizational, administrative, and planning abilities of management in order to oversee the operational performance of complex engineering driven enterprises.
+
 ## Product Engieering Development
+
+Drive product success by brings together the technological problem-solving ability of engineering and the organizational, administrative, and planning abilities of management.
 
 ## Development Strategy
 
