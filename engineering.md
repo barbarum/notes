@@ -2,17 +2,17 @@
 
 Brings together the technological problem-solving ability of engineering and the organizational, administrative, and planning abilities of management in order to oversee the operational performance of complex engineering driven enterprises.
 
-## Product Engieering Development
+## Product Engineering
 
 Drive product success by brings together the technological problem-solving ability of engineering and the organizational, administrative, and planning abilities of management.
 
-## Development Strategy
+* Methodology
 
-1. [Metrics-Driven Development](https://sookocheff.com/post/mdd/mdd/)
+  * [Metrics-Driven Development](https://sookocheff.com/post/mdd/mdd/)
 
 ## Management Style
 
-Leadership vs Management
+Leadership vs. Management
 
 ### Leadership
 
