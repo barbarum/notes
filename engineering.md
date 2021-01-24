@@ -41,3 +41,7 @@ Leadership vs. Management
 - Confirm if it's followed (Ask him to repeat)
 
 ### 1.3.2. How to do PIP?
+
+- Do it with email!
+- Follow #1.3.1 and define clear roadmap and target. 
+- Verify whether it's completed as expected by the given time.
