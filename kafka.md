@@ -18,4 +18,7 @@
 /opt/kafka_2.12-2.3.0/bin/kafka-consumer-groups.sh --bootstrap-server kafka-n3:9092 --topic mall-tracks --delete --group LocalizeTracks
 
 bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9092 --topic mall-tracks --time -1
+
+# Get timestamp offset information
+/opt/kafka_2.12-2.3.0/bin/kafka-run-class.sh kafka.tools.DumpLogSegments --deep-iteration --print-data-log --files /var/lib/kafka/mall-tracks-1/00000000000002536641.timeindex
 ```
