@@ -12,4 +12,7 @@ mysqladmin -h mysql -u root -p****** mall_event_pid_coverage_1022
 mysqldump -h mysql -u root -p****** -v mall | mysql -h mysql -u root -p****** -D mall_event_pid_coverage_1022
 
 mysql -uroot -p****** -sNe "set global explicit_defaults_for_timestamp =1;create database if not exists airflow";
+
+## Start mysql client with UTF-8 character set/解决中文乱码问题
+mysql --default-character-set=utf8
 ```
