@@ -1,5 +1,6 @@
 ```
-yum install git
+yum install git -y
+ssh-keygen -t ed25519 -C "ding.wei.lycium@gmail.com"
 
 # Docker
 yum remove docker \
