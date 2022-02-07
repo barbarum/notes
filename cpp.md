@@ -1,9 +1,8 @@
 # C++
 
+## List of Questions
 
-## List of Questions 
-
-* How to find libirary version in Linux? 
+* How to find libirary version in Linux?
 
 ```bash
 dpkg -l 
