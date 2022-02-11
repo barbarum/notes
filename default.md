@@ -9,3 +9,12 @@ git config --global http.proxy http://{host:port}
 # Run a pip command behind proxy only. 
 pip install --proxy=http://{host:port} {some-package}
 ```
+
+## Tmux
+
+```bash
+tmux new -s <session id> # Open a new tmux session 'default'
+# Detach current tmux session: Ctrl + b -> d
+tmux ls # List all tmux sessions 
+tmux a -t <session id>
+```
