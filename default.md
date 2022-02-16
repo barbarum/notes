@@ -18,3 +18,10 @@ tmux new -s <session id> # Open a new tmux session 'default'
 tmux ls # List all tmux sessions 
 tmux a -t <session id>
 ```
+
+## Check IP GeoLocation
+
+```bash
+curl -s https://ipinfo.io/$(curl -s https://ipinfo.io/ip) # Get current server's public IP information
+curl -s https://ipinfo.io/$(curl -s https://ipinfo.io/ip) | jq '.country' # Get Geolocation of public IP of current server
+```
