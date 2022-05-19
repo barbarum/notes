@@ -20,6 +20,12 @@ rsync --delete-before -a [empty_directory] [dir_to_delete] # Delete large direct
 ls -1 | xargs -I{} echo "rm -rf [Always use absolute path]/{}"
 ```
 
+### Networking 
+
+```bash
+netstat -tulpn | grep LISTEN # check all open ports
+```
+
 ### Docker
 
 ```bash
