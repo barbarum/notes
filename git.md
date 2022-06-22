@@ -1,5 +1,12 @@
 # Git
 
+## Tagging & Release
+
+```bash
+git tag -a v0.0.2 -m "Releasing version v0.0.2"
+git push origin v0.0.2
+```
+
 ## Gitlab Runner
 
 ```bash
