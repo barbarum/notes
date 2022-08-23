@@ -20,6 +20,12 @@ rsync --delete-before -a [empty_directory] [dir_to_delete] # Delete large direct
 ls -1 | xargs -I{} echo "rm -rf [Always use absolute path]/{}"
 ```
 
+### Date, Time, TZ
+
+```bash
+cd /usr/share/zoneinfo/posix && find * -type f -or -type l | sort
+```
+
 ### Networking 
 
 ```bash
