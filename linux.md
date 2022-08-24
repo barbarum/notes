@@ -23,6 +23,7 @@ ls -1 | xargs -I{} echo "rm -rf [Always use absolute path]/{}"
 ### Date, Time, TZ
 
 ```bash
+# Retrieve all available time zone 
 cd /usr/share/zoneinfo/posix && find * -type f -or -type l | sort
 ```
 
