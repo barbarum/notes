@@ -8,6 +8,7 @@ pip freeze > requirements.txt # export pip installed package into requirements.t
 ## FAQ 
 
 Q: `HTTPSConnectionPool(host='files.pythonhosted.org', port=443): Read timed out`
+
 A: It's due to slow connectivity to pypi official site in China. two solutions as follow: 
   ```bash
   pip install metricflow -i https://pypi.tuna.tsinghua.edu.cn/simple # reindex from tsinghua mirror pypi source
