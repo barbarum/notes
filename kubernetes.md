@@ -37,3 +37,32 @@ scp "root@10.255.3.241:/mnt/data/prod/customer/K11/wuhan/gg/tracking/svonline/20
 ```bash
 kubectl get pods -o wide | grep bodysdk64 | grep -v Running | awk '{print $1}' | xargs -I{} kubectl delete pod {} --force --grace-period=0 # Restart not running singleview pods
 ```
+
+## Issues
+
+### EKS - EFS CSI - dynamic provisioning: `Operation not permitted`
+
+当pod通过[aws-efs-csi-driver](https://github.com/kubernetes-sigs/aws-efs-csi-driver)以及dynamic provisioning挂载磁盘并进行ownership变更时出现`Operation not permitted`的报错.
+
+原因分析：`aws-efs-csi-driver`的dynamic provisioning，是通过`EFS`的`access point`模式挂载卷。从`EFS`的角度来说，客户端不可修改其`uid/gid`. 如需变通，有两种方式：
+
+1. 使用[static provisioning方式部署](https://www.cnsre.cn/posts/220110850573/#%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E4%BE%9B%E7%BB%99)修改
+2. 如果一定需要通过dynamic provisioning进行配置，
+    * 2.1 需先创建对应的pvc，等待EFS的access point创建成功
+    * 2.2 在EFS的access point页面，找到对应的uid/gid
+    * 2.3 配置pod的 `spec.temmplate.spec.securityContext`
+
+    ```bash
+        spec: 
+            template: 
+                spec: 
+                    securityContext: 
+                        fsGroup: {gid}
+                        runAsUser: {uid}
+                        runAsGroup: {gid}
+    ```
+
+## References
+
+1. [eks使用efs dynamic provisioning 创建非root容器提示 Operation not permitted](https://blog.csdn.net/weixin_47430049/article/details/122834893)
+2. [Amazon EKS 中 EFS 持久性存储](https://www.cnsre.cn/posts/220110850573/#%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E4%BE%9B%E7%BB%99)
