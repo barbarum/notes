@@ -62,6 +62,10 @@ kubectl get pods -o wide | grep bodysdk64 | grep -v Running | awk '{print $1}' |
                         runAsGroup: {gid}
     ```
 
+### NTP in Kubernetes Cluster
+
+[https://medium.com/goglides/ntp-in-a-kubernetes-cluster-4c6c3e5c0c14](https://medium.com/goglides/ntp-in-a-kubernetes-cluster-4c6c3e5c0c14)
+
 ## References
 
 1. [eks使用efs dynamic provisioning 创建非root容器提示 Operation not permitted](https://blog.csdn.net/weixin_47430049/article/details/122834893)
