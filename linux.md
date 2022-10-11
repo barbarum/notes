@@ -18,6 +18,8 @@ ls -alh | grep 'ch09020' | sort -t '-' -k12 # Sort pb by timestmp
 
 rsync --delete-before -a [empty_directory] [dir_to_delete] # Delete large directory
 ls -1 | xargs -I{} echo "rm -rf [Always use absolute path]/{}"
+
+xargs -0 printf '%s\n' </proc/1/cmdline # Print full command line of a specific process
 ```
 
 ### Date, Time, TZ
