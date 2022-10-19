@@ -25,4 +25,5 @@ mysql --default-character-set=utf8
 
 ```bash
 psql -h host -d database -U user -W # connect to database@host with the given user.
+\c DBNAME # switch to new table
 ```
