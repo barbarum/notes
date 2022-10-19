@@ -7,5 +7,5 @@
 * [Kubernetes](./kubernetes.md)
 * [Linux](./linux.md)
 * [Metrics-Driven Development](https://sookocheff.com/post/mdd/mdd/)
-* [Mysql](./mysql.md)
+* [Database](./database.md)
 * [Redis](./redis.md)
