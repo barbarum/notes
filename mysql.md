@@ -1,6 +1,8 @@
-# Mysql
+# Databases
 
-## List of commands
+## Mysql
+
+### List of commands
 
 ```bash
 
@@ -15,4 +17,12 @@ mysql -uroot -p****** -sNe "set global explicit_defaults_for_timestamp =1;create
 
 ## Start mysql client with UTF-8 character set/解决中文乱码问题
 mysql --default-character-set=utf8
+```
+
+## PostgreSQL
+
+### List of commands
+
+```bash
+psql -h host -d database -U user -W # connect to database@host with the given user.
 ```
