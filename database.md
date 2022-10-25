@@ -27,3 +27,7 @@ mysql --default-character-set=utf8
 psql -h host -d database -U user -W # connect to database@host with the given user.
 \c DBNAME # switch to new table
 ```
+
+## References
+
+1. [Postgres Cheatsheet](https://postgrescheatsheet.com/#/)
