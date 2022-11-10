@@ -33,6 +33,13 @@ cd /usr/share/zoneinfo/posix && find * -type f -or -type l | sort
 
 ```bash
 netstat -tulpn | grep LISTEN # check all open ports
+
+# dns resolve
+nslookup bing.com
+ping -c 4 bing.com
+host bing.com
+dig bing.com
+curl -Ivs https://www.bing.com/
 ```
 
 ### Docker
