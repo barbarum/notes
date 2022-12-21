@@ -32,6 +32,12 @@ scp "root@10.255.3.241:/mnt/data/prod/customer/K11/wuhan/gg/tracking/svonline/20
 
 ```
 
+### Get not running pod names
+
+```bash
+kubectl -n airbyte get pods --field-selector status.phase!=Running --no-headers -o custom-columns=":metadata.name"
+```
+
 ### SingleView
 
 ```bash
