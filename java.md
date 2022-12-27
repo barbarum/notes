@@ -23,3 +23,8 @@ dependencies {
     testImplementation "org.mockito:mockito-core:2.28.2"
 }
 ```
+## Command Line
+
+```bash
+jar tf jarfile # View all files from a jarfile.
+```
