@@ -26,3 +26,4 @@ git fetch -p && \
 
 2. Sign off git commit `git commit -s`
 3. Sign off git merge `git merge --signoff`
+4. [Syncing a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
