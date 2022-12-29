@@ -23,3 +23,6 @@ git fetch -p && \
     do git branch -D $branch; \
     done
 ```
+
+2. Sign off git commit `git commit -s`
+3. Sign off git merge `git merge --signoff`
