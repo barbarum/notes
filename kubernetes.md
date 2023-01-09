@@ -30,18 +30,13 @@ kubectl label nodes gpu620.aibee.cn seaweedfs-filer=true
 
 scp "root@10.255.3.241:/mnt/data/prod/customer/K11/wuhan/gg/tracking/svonline/20191229/pb/*(ch05005|ch05006|ch05010|ch05011)*" ./
 
+kubectl get pods -o wide | grep hive-cli | grep -v Running | awk '{print $1}' | xargs -I{} kubectl delete pod {} --force --grace-period=0 # Terminate running pods
 ```
 
 ### Get not running pod names
 
 ```bash
 kubectl -n airbyte get pods --field-selector status.phase!=Running --no-headers -o custom-columns=":metadata.name"
-```
-
-### SingleView
-
-```bash
-kubectl get pods -o wide | grep bodysdk64 | grep -v Running | awk '{print $1}' | xargs -I{} kubectl delete pod {} --force --grace-period=0 # Restart not running singleview pods
 ```
 
 ## Issues
