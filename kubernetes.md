@@ -30,7 +30,7 @@ kubectl label nodes gpu620.aibee.cn seaweedfs-filer=true
 
 scp "root@10.255.3.241:/mnt/data/prod/customer/K11/wuhan/gg/tracking/svonline/20191229/pb/*(ch05005|ch05006|ch05010|ch05011)*" ./
 
-kubectl get pods -o wide | grep hive-cli | grep -v Running | awk '{print $1}' | xargs -I{} kubectl delete pod {} --force --grace-period=0 # Terminate running pods
+kubectl -n hive delete pod hive-cli --force --grace-period=0 # Terminate running hive-cli pod in hive namespace
 ```
 
 ### Get not running pod names
