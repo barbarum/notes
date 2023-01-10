@@ -14,6 +14,8 @@ kubectl get pv | tail -n +2 | grep -iF mall-realtime02 | awk '{print $1}' | xarg
 ## Kubernete Commands
 
 ```bash
+# Delete not running pod on the specific node
+kubectl get pods -A -o wide --field-selector=status.phase!=Running | grep "ip-10-0-130-118.cn-northwest-1.compute.internal" | awk '{printf "kubectl -n %s delete pod %s\n",$1,$2}' | xargs -0 bash -c
 dmesg -T | egrep -i 'killed process' -A100 -B100 # OOM killed messages
 
 kubectl -n online-pipeline get pods --field-selector=status.phase!=Running # Find not running pods
