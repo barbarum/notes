@@ -17,9 +17,6 @@ du -sh /var # count the directory size
 ls -alh | sort -t '-' -k12 # Sort pb by timestmp
 ls -alh | grep 'ch09020' | sort -t '-' -k12 # Sort pb by timestmp
 
-rsync --delete-before -a [empty_directory] [dir_to_delete] # Delete large directory
-ls -1 | xargs -I{} echo "rm -rf [Always use absolute path]/{}"
-
 xargs -0 printf '%s\n' </proc/1/cmdline # Print full command line of a specific process
 ```
 
@@ -56,6 +53,9 @@ dd if=/dev/zero of=/tmp/test2.img bs=64K count=1000 oflag=dsync
 flush
 echo 3 | sudo tee /proc/sys/vm/drop_caches
 time dd if=/path/to/bigfile of=/dev/null bs=64k
+
+rsync --delete-before -a [empty_directory] [dir_to_delete] # Delete large directory
+ls -1 | xargs -I{} echo "rm -rf [Always use absolute path]/{}"
 ```
 
 ### Docker
