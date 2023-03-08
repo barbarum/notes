@@ -45,9 +45,9 @@ ls -alh | grep 'ch09020' | sort -t '-' -k12 # Sort pb by timestmp
 
 # For simple sequential I/O performance
 ## Measure the server throughtput (write speed)
-dd if=/dev/zero of=/data/test1.img bs=1G count=1 oflag=dsync
+echo /opt/airflow/logs/test1.img | awk '{printf "dd if=/dev/zero of=%s bs=1G count=1 oflag=dsync && rm -rf %s\n",$1, $1}' | xargs -0 bash -c
 ## Measure server latency
-dd if=/dev/zero of=/tmp/test2.img bs=64K count=1000 oflag=dsync
+echo /opt/airflow/logs/test1.img | awk '{printf "dd if=/dev/zero of=%s bs=64K count=1000 oflag=dsync && rm -rf %s\n",$1, $1}' | xargs -0 bash -c
 
 # For read performance
 flush
