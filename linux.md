@@ -43,6 +43,21 @@ dig bing.com
 curl -Ivs https://www.bing.com/
 ```
 
+### Disk
+
+```bash
+# For simple sequential I/O performance
+## Measure the server throughtput (write speed)
+dd if=/dev/zero of=/data/test1.img bs=1G count=1 oflag=dsync
+## Measure server latency
+dd if=/dev/zero of=/tmp/test2.img bs=64K count=1000 oflag=dsync
+
+# For read performance
+flush
+echo 3 | sudo tee /proc/sys/vm/drop_caches
+time dd if=/path/to/bigfile of=/dev/null bs=64k
+```
+
 ### Docker
 
 ```bash
