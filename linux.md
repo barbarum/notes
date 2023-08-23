@@ -69,6 +69,11 @@ docker system prune # clean up dangling docker images
 ```bash
 nvidia-smi
 ```
+### Generate random JWT secret
+
+```bash
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+```
 
 ## Singleview pb data output
 
